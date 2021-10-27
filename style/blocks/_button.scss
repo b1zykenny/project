@@ -1,0 +1,19 @@
+.button {
+    padding: 10px 20px;
+    border: 1px solid #FF6A6A;
+    color: #FF6A6A;
+    text-decoration: none;
+    transition: 1s;
+
+    &:hover {
+        background-color: $main-color;
+        color: #fff;
+        transition: 0.3s;
+        opacity: 1;
+        transform: scale(0.5, 1.15);
+    }
+
+    & .fa-angle-double-right {
+        margin-left: 5px;
+    }
+}
