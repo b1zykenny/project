@@ -1,0 +1,26 @@
+.products-filter {
+    margin-bottom: 65px;
+    margin-right: 320px;
+}
+
+.products-choice {
+    display: flex;
+    margin-top: 51px;
+
+    &-list {
+        display: flex;
+        list-style-type: none;
+    }
+
+    &-text {
+        padding-right: 48px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6F6E6E;
+    }
+}
+
+.fa-chevron-down {
+    padding-left: 10px;
+}

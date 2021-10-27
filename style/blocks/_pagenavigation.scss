@@ -1,0 +1,37 @@
+.products-navigation {
+    text-align: center;
+}
+
+.fa-chevron-left {
+    color: black;
+}
+
+.fa-chevron-right {
+    color: black;
+}
+
+.products-navigation-list {
+    display: inline-block;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+    color: rgb(192, 192, 192);
+}
+
+.products-navigation-list a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 44px;
+    color: rgb(192, 192, 192);
+
+    &.active {
+        color: #EF5B70;
+    }
+
+    &:hover:not(.active) {
+        color: rgb(192, 192, 192);
+    }
+}

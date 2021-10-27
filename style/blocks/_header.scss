@@ -1,0 +1,21 @@
+.page-header {
+    background-color: $second-color;
+    color: #fff;
+    padding: 18px 0;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-icon {
+    padding-left: 41px;
+    fill: #E8E8E8;
+
+    &:hover {
+        fill: $main-color;
+        transition: 0.3s;
+    }
+}

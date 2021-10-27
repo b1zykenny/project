@@ -1,0 +1,58 @@
+/* Переменные */
+@import "_var.scss";
+
+/* Примеси */
+@import "_mixin.scss";
+
+@import "_main.scss";
+
+
+/* Header */
+@import "blocks/_header.scss";
+
+/* Title catalog.html & registration.html */
+
+@import "blocks/_title.scss";
+
+/* Registration registration.html */
+
+@import "blocks/_reg.scss";
+
+/* Filter catalog.html*/
+
+@import "blocks/_filter.scss";
+
+/* Promo index.html */
+
+@import "blocks/_promo.scss";
+
+/* Offer index.html */
+
+@import "blocks/_offer.scss";
+
+/* Products */
+
+@import "blocks/_products.scss";
+
+/* Page-navigation catalog.html */
+
+@import "blocks/_pagenavigation.scss";
+
+/* Button-products index.html */
+
+@import "blocks/_button.scss";
+
+/* Features */
+
+@import "blocks/_features.scss";
+
+/* Feedback */
+
+@import "blocks/_feedback.scss";
+
+/* Footer */
+
+@import "blocks/_footer.scss";
+
+
+

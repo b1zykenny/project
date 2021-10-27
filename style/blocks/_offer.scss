@@ -1,0 +1,50 @@
+.offer {
+    padding: 65px 0;
+
+    &-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    &-item {
+        list-style-type: none;
+        transition: 0.5s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    &-text {
+        position: relative;
+        text-align: center;
+    }
+
+    &-name {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #ffffff;
+        position: absolute;
+        top: 105px;
+        left: 119px;
+
+        &-bottom {
+            position: absolute;
+            top: 65px;
+            left: 491px;
+            color: #ffffff;
+        }
+
+        &-pink {
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+            color: $main-color;
+        }
+    }
+}
