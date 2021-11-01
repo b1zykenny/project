@@ -66,6 +66,56 @@
 
                 </a>
             </nav>
+
+            <nav class="main-nav main-nav--close">
+                <!--main-nav--close -->
+                <div class="main-nav-box">
+                    <button class="main-nav-close"><i class="fas fa-times"></i></button>
+                    <p class="main-nav-title">MENU</p>
+                    <ul class="main-nav-list">
+                        <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">MAN</a>
+                            <ul class="submenu-list">
+                                <li class="submenu-item"><a href="#" class="submenu-link">Accessories</a>
+                                </li>
+                                <li class="submenu-item"><a href="#" class="submenu-link">Bags</a>
+                                </li>
+                                <li class="submenu-item"><a href="#" class="submenu-link">Denim</a>
+                                </li>
+                                <li class="submenu-item"><a href="#" class="submenu-link">T-Shirts</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">WOMAN</a>
+                            <ul class="submenu-list">
+                                <li class="submenu-item"><a href="#" class="submenu-link">Accessories</a>
+                                </li>
+                                <li class="submenu-item"><a href="#" class="submenu-link">Jackets & Coats</a>
+                                </li>
+                                <li class="submenu-item"><a href="#" class="submenu-link">Polos</a>
+                                </li>
+                                <li class="submenu-item"><a href="#" class="submenu-link">T-Shirts</a>
+                                </li>
+                                <li class="submenu-item"><a href="#" class="submenu-link">Shirts</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">KIDS</a>
+                            <ul class="submenu-list">
+                                <li class="submenu-item"><a href="#" class="submenu-link">Accessories</a>
+                                </li>
+                                <li class="submenu-item"><a href="#" class="submenu-link">Jackets & Coats</a>
+                                </li>
+                                <li class="submenu-item"><a href="#" class="submenu-link">Polos</a>
+                                </li>
+                                <li class="submenu-item"><a href="#" class="submenu-link">Shirts</a>
+                                </li>
+                                <li class="submenu-item"><a href="#" class="submenu-link">Bags</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
 
@@ -84,14 +134,86 @@
 
     <section class="products">
         <div class="wrap products-wrap">
-            <div class="products-choice">
-                <h3 class="products-filter">FILTER <i class="fas fa-sort-amount-down"></i></h3>
+            <section class="products-choice">
+                <details class="filter">
+                    <summary class="filter-title">FILTER <svg class="filter-icon" width="15" height="10"
+                            viewBox="0 0 15 10" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667 8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167 0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667 0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10 4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333 0.833333 5.83333Z" />
+                        </svg>
+                    </summary>
+                    <div class="filter-drop">
+                        <details class="subfilter">
+                            <summary class="subfilter-title">
+                                CATEGORY
+                            </summary>
+                            <ul class="subfilter-list">
+                                <li class="subfilter-item"><button class="subfilter-btn">Accessories</button></li>
+                                <li class="subfilter-item"><button class="subfilter-btn">Bags</button></li>
+                                <li class="subfilter-item"><button class="subfilter-btn">Denim</button></li>
+                                <li class="subfilter-item"><button class="subfilter-btn">Hoodies & Sweatshirts</button>
+                                </li>
+                                <li class="subfilter-item"><button class="subfilter-btn">Jackets & Coats</button></li>
+                                <li class="subfilter-item"><button class="subfilter-btn">Polos</button></li>
+                                <li class="subfilter-item"><button class="subfilter-btn">Shirts</button></li>
+                                <li class="subfilter-item"><button class="subfilter-btn">Shoes</button></li>
+                                <li class="subfilter-item"><button class="subfilter-btn">Sweaters & Knits</button></li>
+                                <li class="subfilter-item"><button class="subfilter-btn">T-Shirts</button></li>
+                                <li class="subfilter-item"><button class="subfilter-btn">Tanks</button></li>
+                            </ul>
+                        </details>
+
+                        <details class="subfilter">
+                            <summary class="subfilter-title">
+                                BRAND
+                            </summary>
+                            <ul class="subfilter-list">
+                                <li class="subfilter-item"><button class="subfilter-btn">Accessories</button></li>
+                            </ul>
+                        </details>
+
+                        <details class="subfilter">
+                            <summary class="subfilter-title">
+                                DESIGNER
+                            </summary>
+                            <ul class="subfilter-list">
+                                <li class="subfilter-item"><button class="subfilter-btn">Accessories</button></li>
+                            </ul>
+                        </details>
+                    </div>
+                </details>
+
                 <ol class="products-choice-list">
-                    <li class="products-choice-text">TRENDING NOW <i class="fas fa-chevron-down"></i></li>
-                    <li class="products-choice-text">SIZE <i class="fas fa-chevron-down"></i></li>
-                    <li class="products-choice-text">PRICE <i class="fas fa-chevron-down"></i></li>
+                    <details class="products-choice-box">
+                        <summary class="products-choice-title">TRENDING NOW <i class="fas fa-chevron-down"></i>
+                        </summary>
+                        <div class="products-choice-drop">
+                            <label class="sort-line"><input type="checkbox" name="trending" value=""> 1</label>
+                            <label class="sort-line"><input type="checkbox" name="trending" value=""> 2</label>
+                            <label class="sort-line"><input type="checkbox" name="trending" value=""> 3</label>
+                            <label class="sort-line"><input type="checkbox" name="trending" value=""> 4</label>
+                        </div>
+                    </details>
+                    <details class="products-choice-box">
+                        <summary class="products-choice-title">SIZE <i class="fas fa-chevron-down"></i>
+                        </summary>
+                        <div class="products-choice-drop">
+                            <label class="sort-line"><input type="checkbox" name="size" value="xs"> XS</label>
+                            <label class="sort-line"><input type="checkbox" name="size" value="s"> S</label>
+                            <label class="sort-line"><input type="checkbox" name="size" value="m"> M</label>
+                            <label class="sort-line"><input type="checkbox" name="size" value="l"> L</label>
+                    </details>
+                    <details class="products-choice-box">
+                        <summary class="products-choice-title">PRICE <i class="fas fa-chevron-down"></i>
+                        </summary>
+                        <div class="products-choice-drop">
+                            <label class="sort-line"><input type="checkbox" name="price" value=""> 1</label>
+                            <label class="sort-line"><input type="checkbox" name="price" value=""> 2</label>
+                            <label class="sort-line"><input type="checkbox" name="price" value=""> 3</label>
+                            <label class="sort-line"><input type="checkbox" name="price" value=""> 4</label>
+                    </details>
                 </ol>
-            </div>
+            </section>
             <ul class="products-list">
                 <li class="products-item">
                     <div class="products-overlay">
