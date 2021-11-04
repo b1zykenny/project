@@ -23,6 +23,7 @@
     border: 1px solid #EBEBEB;
     border-radius: 3px;
     color: rgb(192, 192, 192);
+    height: 44px;
 }
 
 .products-navigation-list a {
@@ -41,5 +42,9 @@
 
     &:hover:not(.active) {
         color: black;
+    }
+
+    @media (max-width: 767px) {
+        padding: 4px 8px;
     }
 }

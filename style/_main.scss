@@ -14,6 +14,17 @@
 }
 
 .wrap {
-    width: 1140px;
+    width: $desktop-width;
     margin: 0 auto;
+
+    /* tablet */
+    @media (max-width: $tablet-breakpoint) {
+        width: 735px;
+        padding: $site-padding;
+    }
+
+    /* mobile */
+    @media (max-width: 767px) {
+        width: $mobile-width;
+    }
 }
