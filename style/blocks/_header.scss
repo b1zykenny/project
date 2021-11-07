@@ -8,6 +8,27 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media (max-width: $tablet-breakpoint) {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    @media (max-width: 767px) {
+        padding-left: 16px;
+
+        .search {
+            padding-left: 41px;
+        }
+
+        .reg {
+            display: none;
+        }
+
+        .cart {
+            display: none;
+        }
+    }
 }
 
 .header-icon {
@@ -17,6 +38,10 @@
     &:hover {
         fill: $main-color;
         transition: 0.3s;
+    }
+
+    @media (max-width: 767px) {
+        padding: 0px;
     }
 }
 

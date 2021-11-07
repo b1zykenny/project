@@ -12,7 +12,24 @@
         text-transform: uppercase;
         display: block;
         padding: 13px 16px;
+
+        @media (max-width: $tablet-breakpoint) {
+            padding-left: 0px;
+        }
+
+        @media (max-width: 767px) {
+            display: flex;
+            color: #fff;
+            flex-direction: column;
+            padding: 0px;
+
+            .filter-icon {
+                width: 37px;
+                height: 25px;
+            }
+        }
     }
+
 
     &-drop {
         position: absolute;
@@ -41,7 +58,6 @@
             fill: $main-color;
         }
     }
-
 }
 
 .subfilter {
@@ -94,11 +110,29 @@
     align-items: center;
     cursor: pointer;
 
+    @media (max-width: $tablet-breakpoint) {
+        margin-top: -30px;
+        margin-bottom: 40px;
+    }
+
+    @media (max-width: 767px) {
+        margin-top: 0px;
+        margin-bottom: 32px;
+    }
+
     &-list {
         display: flex;
         list-style-type: none;
         padding-left: 30px;
         position: relative;
+
+        @media (max-width: $tablet-breakpoint) {
+            padding-left: 25px;
+        }
+
+        @media (max-width: 767px) {
+            padding-left: 25px;
+        }
     }
 
     &-box {
@@ -107,10 +141,28 @@
         font-size: 14px;
         line-height: 17px;
         color: #6F6E6E;
+
+        @media (max-width: $tablet-breakpoint) {
+            padding-right: 0px;
+        }
+
+        @media (max-width: 767px) {
+            padding-right: 0px;
+        }
     }
 
     &-title {
         display: block;
+
+        @media (max-width: $tablet-breakpoint) {
+            padding-left: 28px;
+            font-size: 12px;
+            line-height: 14px;
+        }
+
+        @media (max-width: 767px) {
+        
+        }
     }
 
     &-drop {

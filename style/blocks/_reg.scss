@@ -1,12 +1,26 @@
 .registration-wrap {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
 }
 
 .registration-info {
     padding-left: 128px;
     width: 625px;
     padding-top: 64px;
+
+    @media (max-width: $tablet-breakpoint) {
+        padding: 40px 16px 274px 22px;
+    }
+
+    @media (max-width: 767px) {
+        width: 358px;
+        padding: 0px 0px 96px 0px;
+    }
+
 }
 
 .regform {
@@ -36,12 +50,23 @@
         line-height: 16px;
         color: #222224;
         padding: 13px 45px 16px 17px;
+
+        @media (max-width: 767px) {
+            width: 95%;
+            padding-right: 0px;
+        }
     }
 }
 
 .check::before {
     content: "✓";
     padding-right: 23px;
+}
+
+@media (max-width: $tablet-breakpoint) {
+    .check {
+        padding-top: 16px;
+    }
 }
 
 
@@ -90,6 +115,11 @@
     font-size: 24px;
     line-height: 29px;
     color: #000000;
+
+    @media (max-width: $tablet-breakpoint) {
+        font-size: 16px;
+        line-height: 19px;
+    }
 }
 
 .registration-text {
@@ -106,6 +136,16 @@
         font-size: 24px;
         line-height: 29px;
         color: #000000;
+
+        @media (max-width: $tablet-breakpoint) {
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+
+    @media (max-width: $tablet-breakpoint) {
+        font-size: 16px;
+        line-height: 19px;
     }
 }
 

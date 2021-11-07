@@ -4,6 +4,15 @@
     padding: 6px 0;
 }
 
+@media (max-width: 767px) {
+    .footer-wrap {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+}
+
 .footer-title {
     font-style: normal;
     font-weight: normal;
@@ -17,6 +26,13 @@
     display: flex;
     justify-content: flex-end;
     margin-top: -40px;
+
+    @media (max-width: 767px) {
+        margin-top: 0px;
+        padding-top: 43px;
+        padding-bottom: 40px;
+        margin-bottom: 0px;      
+    }
 }
 
 .footer-icon {

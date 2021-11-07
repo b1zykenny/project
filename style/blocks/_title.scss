@@ -4,6 +4,23 @@
     margin: 0;
 }
 
+@media (max-width: 767px) {
+    .page-title-wrap {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 148px;
+        padding: 0px;
+    }
+}
+
+@media (max-width: $tablet-breakpoint) {
+    .page-title-wrap {
+        margin: 0px;
+    }
+}
+
 .page-title-text {
     font-weight: normal;
     font-size: 24px;
@@ -12,6 +29,11 @@
     padding-top: 59px;
     padding-bottom: 60px;
     margin: 0;
+
+    @media (max-width: 767px) {
+        padding-top: 24px;
+        padding-bottom: 115px;
+    }    
 }
 
 .breadcrumb-list {
@@ -19,6 +41,7 @@
     display: flex;
     justify-content: flex-end;
     margin-top: -82px;
+
 }
 
 .breadcrumb-item a {
